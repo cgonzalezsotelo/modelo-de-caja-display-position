@@ -170,3 +170,14 @@ html body {
   left: 43%;
   margin: 125px 0;
 }
+
+/* Desafio 4 */
+
+.main-f4 {
+  background-color: #b0ccab;
+  padding: 50px;
+}
+​​ .main-f4__paragraph {
+  left: 40px;
+  position: fixed;
+}
