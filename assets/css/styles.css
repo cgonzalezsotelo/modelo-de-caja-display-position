@@ -193,3 +193,16 @@ html body {
   top: 0;
   left: 0;
 }
+
+/* Desafio 6 */
+
+.item6 {
+  position: absolute;
+}
+
+.ribbon6 {
+  position: relative;
+  right: -140px;
+  bottom: -140px;
+  width: 70px;
+}
