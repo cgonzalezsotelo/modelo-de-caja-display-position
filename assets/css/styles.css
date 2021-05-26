@@ -55,3 +55,118 @@ html body {
   top: 50px;
   z-index: 1;
 }
+
+/* Desafio 3 */
+
+.banderas1,
+.banderas2 {
+  width: 100%;
+}
+
+/* Bandera España */
+
+.espana,
+.dinamarca,
+.emiratos-arabes,
+.japon {
+  width: 700px;
+  display: inline-block;
+}
+
+.espana1 {
+  background-color: red;
+  height: 100px;
+}
+
+.espana2 {
+  background-color: yellow;
+  height: 200px;
+}
+
+.espana3 {
+  background-color: red;
+  height: 100px;
+}
+
+/* Bandera Dinamarca */
+
+.dinamarca__content1,
+.dinamarca__content2 {
+  display: inline-block;
+}
+.dinamarca1 {
+  background-color: red;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 60px;
+  margin-right: 60px;
+}
+
+.dinamarca2 {
+  background-color: red;
+  width: 170px;
+  height: 170px;
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+.dinamarca3 {
+  background-color: red;
+  width: 450px;
+  height: 170px;
+  margin-bottom: 60px;
+}
+
+.dinamarca4 {
+  background-color: red;
+  width: 450px;
+  height: 170px;
+  margin-top: 60px;
+}
+
+/* Bandera Emiratos Árabes */
+
+.emiratos-arabes__content1,
+.emiratos-arabes__content2 {
+  display: inline-block;
+}
+
+.emiratos-arabes1 {
+  background-color: red;
+  width: 100px;
+  height: 400px;
+}
+
+.emiratos-arabes2 {
+  background-color: green;
+  width: 595px;
+  height: 133px;
+}
+
+.emiratos-arabes3 {
+  background-color: white;
+  width: 595px;
+  height: 133px;
+}
+
+.emiratos-arabes4 {
+  background-color: black;
+  width: 595px;
+  height: 133px;
+}
+
+/* Bandera Japón */
+
+.japon__content {
+  border: 1px solid black;
+}
+
+.japon1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: red;
+  position: relative;
+  left: 43%;
+  margin: 125px 0;
+}
