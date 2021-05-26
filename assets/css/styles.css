@@ -1,4 +1,5 @@
-body {
+/* Desafio 1 */
+html body {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,4 +25,33 @@ body {
   width: 25%;
   padding: 5px;
   border: 2px solid #808080;
+}
+
+/* Desafio 2 */
+
+.square {
+  height: 200px;
+  width: 200px;
+}
+
+.square__red {
+  background-color: rgba(255, 0, 0, 0.5);
+  position: absolute;
+  z-index: 3;
+}
+
+.square__green {
+  background-color: rgba(0, 255, 0, 0.5);
+  left: 25px;
+  position: absolute;
+  top: 25px;
+  z-index: 2;
+}
+
+.square__blue {
+  background-color: rgba(0, 0, 255, 0.5);
+  left: 50px;
+  position: absolute;
+  top: 50px;
+  z-index: 1;
 }
