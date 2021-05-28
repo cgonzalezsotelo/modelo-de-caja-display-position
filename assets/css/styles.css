@@ -1,4 +1,4 @@
-/* Desafio 1 */
+/* Reset */
 html body {
   margin: 0;
   padding: 0;
@@ -6,6 +6,55 @@ html body {
   box-sizing: border-box;
   font-family: "Helvetica", sans-serif;
 }
+
+/* Index */
+
+.content__img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20vh;
+}
+
+.content__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  top: 22vh;
+  position: relative;
+  font-weight: lighter;
+  color: rgb(56, 56, 56);
+}
+
+.navbar-i__list {
+  text-align: center;
+}
+
+.navbar-i__items {
+  display: inline-block;
+  position: relative;
+  top: 25vh;
+  padding: 0 1rem;
+}
+
+.navbar-i__items a {
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+  border: 1px solid rgb(56, 56, 56);
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-i__items a:hover {
+  background-color: rgb(214, 214, 214);
+  border: 1px solid rgb(214, 214, 214);
+  transition: 0.5s ease;
+}
+
+/* Desafio 1 */
 
 .navbar {
   width: 100%;
@@ -177,13 +226,13 @@ html body {
 
 /* Desafio 4 */
 
-.main-f4 {
+.main-d4 {
   background-color: #b0ccab;
   padding: 50px;
 }
-​​ .main-f4__paragraph {
+.main-d4__paragraph {
   left: 40px;
-  position: fixed;
+  position: relative;
 }
 
 /* Desafio 5 */
