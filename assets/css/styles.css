@@ -248,3 +248,63 @@ ul.menu-d8 li a:hover {
 .p-d8 {
   clear: both;
 }
+
+/* Desafio 9 */
+
+.title-d9 {
+  width: 100%;
+  background-color: black;
+  position: absolute;
+}
+
+.title-d9__text {
+  color: white;
+  padding: 10px 20px;
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+.main-d9 {
+  width: 100%;
+  padding-top: 100px;
+}
+
+.aside-d9,
+.article-d9 {
+  display: inline-block;
+}
+.aside-d9 {
+  width: 20%;
+  background-color: rgb(190, 190, 190);
+  padding: 50px 20px;
+}
+
+.navbar-d9__title {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.article-d9 {
+  width: 70%;
+  padding: 0 20px;
+}
+
+.article-d9__subtitle {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.footer-d9 {
+  width: 100%;
+  background-color: gray;
+  position: absolute;
+  text-align: center;
+}
+
+.footer-d9__text {
+  color: white;
+}
